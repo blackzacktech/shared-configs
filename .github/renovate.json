@@ -1,0 +1,3 @@
+{
+ "extends": ["github>blackzacktech/shared-configs//packages/renovate-config/index.json"]
+}

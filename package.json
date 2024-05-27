@@ -1,0 +1,47 @@
+{
+  "name": "@blackzacktech/sharable-configs",
+  "version": "2.3.0",
+  "description": "☔ My sharable ESLint and Prettier configs",
+  "author": "Blackzack",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/blackzacktech/shared-configs"
+  },
+  "funding": "https://github.com/sponsors/blackzacktech",
+  "bugs": "https://github.com/blackzacktech/shared-configs/issues",
+  "homepage": "https://github.com/blackzacktech/shared-configs#readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "turbo run format --color",
+    "format:check": "turbo run format:check --color",
+    "build": "turbo run build --color",
+    "publish-packages": "turbo run publish-packages --color",
+    "test:publish-packages": "turbo run test:publish-packages --color",
+    "lint": "turbo run lint --color",
+    "lint:fix": "turbo run lint:fix --color",
+    "int": "prettier --write . --cache --ignore-unknown",
+    "int-lint": "eslint --fix .",
+    "int:check": "prettier --check .",
+    "int-lint:check": "eslint .",
+    "generate-docs": "node src/generateDocs.mjs"
+  },
+  "keywords": [
+    "eslint",
+    "shared-configs",
+    "prettier",
+    "prettier-config",
+    "javascript",
+    "config",
+    "styleguide"
+  ],
+  "prettier": "./packages/prettier-config/index.js",
+  "dependencies": {
+    "markdown-table": "3.0.3",
+    "turbo": "1.13.3"
+  },
+  "devDependencies": {
+    "eslint": "9.2.0",
+    "prettier": "3.2.5"
+  }
+}
