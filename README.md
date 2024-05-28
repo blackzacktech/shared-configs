@@ -1,4 +1,4 @@
-![Shared Configs](./docs/assets/Config_Banner.png)
+![Shared Configs](https://api.yurna.info/assets/9ebbd107-05b9-4324-b00e-1c284d91978f)
 
 ## ♻️ Shareable configs
 

@@ -1,4 +1,4 @@
-![Prettier config]()
+![Prettier config](https://api.yurna.info/assets/a7ed65fe-357a-440f-b290-b021dbec6d6a)
 
 ### 📥 Installation
 
